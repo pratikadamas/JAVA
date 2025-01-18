@@ -17,12 +17,7 @@ public class LOOP
         }
 
         System.out.println("Sum of N natural number is "+sum);
-
-
-
-        
-
+  
     }
-
-    
+  
 }
