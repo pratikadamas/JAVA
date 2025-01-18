@@ -19,7 +19,11 @@ class student{
 public class class_object {
     public static void main(String []args){
      student s1=new student();
+     student s2=new student();
      s1.setdata(126, "Pratik Giri");
      s1.show();
+
+     s2.setdata(12, "Akash Giri");
+     s2.show();
     }
 }
