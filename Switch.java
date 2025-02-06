@@ -4,6 +4,7 @@ public class Switch {
        char grade = 'C';
  
        switch(grade) {
+         
           case 'A' :
              System.out.println("Excellent!"); 
              break;
