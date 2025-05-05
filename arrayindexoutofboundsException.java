@@ -6,7 +6,7 @@ public class arrayindexoutofboundsException {
                 int index = 10; // Accessing an index that is out of bounds
                 int value = numbers[index]; // Attempting to access an element at an invalid index
                 System.out.println("Value at index " + index + ": " + value);
-            } catch (ArrayIndexOutOfBoundsException p) {
+            } catch (Exception p) {
                 System.out.println(p);
                 System.out.println("Error: Index is out of bounds.");
                 // Additional error handling code can be added here
